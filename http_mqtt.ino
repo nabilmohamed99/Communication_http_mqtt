@@ -149,7 +149,7 @@ void loop() {
     reconnect();
   }
   if(!client.loop())
-   client.connect("ESPO","meier","123");
+   client.connect("ESPO","*","123");
 
   unsigned long currentMillis = millis();
   if (previousMillis > 0 && currentMillis - previousMillis >= interval) {
