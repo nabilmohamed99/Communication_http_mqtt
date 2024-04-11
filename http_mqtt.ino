@@ -8,8 +8,8 @@
 
 
 // Change the credentials below, so your ESP8266 connects to your router
-const char* ssid = "ELEXPERT_1";
-const char* password = "ELEXPERT2022";
+const char* ssid = "*********";
+const char* password = "******";
 
 // Change the variable to your Raspberry Pi IP address, so it connects to your MQTT broker
 const char* mqtt_server = "ub1263b2.emqx.cloud";
